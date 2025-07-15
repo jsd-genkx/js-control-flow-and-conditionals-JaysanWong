@@ -29,5 +29,4 @@ switch (fruit) {
 
 	default :
 	console.log("Unknown fruit.");
-	
 }
