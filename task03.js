@@ -5,4 +5,29 @@
 // 6–10 chars → "Moderate"
 // 11+ chars → "Strong"
 
+// const password = "pass123";
+// console.log(password.length);
+
+// if (password.length <6) {
+//     console.log('too short');
+// } else if (password.length <=10) {
+//     console.log('moderate')} 
+// else (password.length >11) {
+//     console.log('strong')
+// };
+
+    // console.log(password.length);
+    
 const password = "pass123";
+if (password.length < 6) {
+    // Code to execute if condition is true
+    console.log("Too short");
+} else if (password.length >= 6 && password.length <= 10) {
+    // Code to execute if anotherCondition is true
+    console.log("Moderate");
+
+} else {
+    // Code to execute if all conditions are false
+    console.log("Strong");
+
+}
